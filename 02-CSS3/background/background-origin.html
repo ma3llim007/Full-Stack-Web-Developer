@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgroup Origin</title>
+    <style>
+        p{
+            border: 5px solid red;
+            padding: 40px;
+            background-image: url(../img/2.jpg);
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+        }
+    </style>
+</head>
+<body>
+    <p>The Background-origin property specifies where the background image is positioned. we can set this property to border-box, padding-box, content-box.</p>
+    <ol>
+        <li><b>Border-Box :-</b>The Background image starts from the upper left corner of the border</li>
+        <li><b>Padding-Box :-</b>The Background Image starts from the upppr left corner of the paddign edge. its default value</li>
+        <li><b>Context-Box :-</b>The Background Image starts from the upppr left corner of the content</li>
+    </ol>
+</body>
+</html>
